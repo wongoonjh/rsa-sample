@@ -34,3 +34,7 @@
   }
 ```
 
+
+
+- 출처
+[minis24](https://github.com/minis24/mbpcen_auth/blob/dev-v1/src/main/java/com/qry/mbpcen/auth/securitysession/controller/SecuritySessionController.java#L62)
