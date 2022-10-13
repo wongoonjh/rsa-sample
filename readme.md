@@ -15,20 +15,25 @@ make
 
 
 
-## Install
-/rsa-sample/src/main/resources/application.properties  
-LISTEN port 변경
+## 설정변경
+- LISTEN port 변경  
+  /rsa-sample/src/main/resources/application.properties  
+
 ```
 server.port=8881
 ```
 
+- default API URL 변경 
+  
+  main.js ` const BASE_URL = "http://a.com:8881";  `
+  
 
 ## Run
 ```
 - Run as > String Boot App
-- default : 
-  main.js http://a.com:8881
 ```
+
+
 
 
 ## Advanced usage
@@ -45,7 +50,9 @@ server.port=8881
   - 띄어쓰기 - 하이픈으로 
 - **1111** **으로 양쪽에 감싸면 굵은글 처리
 - ```1111``` ```으로 양쪽을 감싸면 음영 처리 
-    
+- 스페이스 2번은 줄바꿈.
+
+
 ### 참고사이트
   - [stanford.edu](http://www-cs-students.stanford.edu/~tjw/jsbn/)
   - [SoA 정책](./helpme.md)
