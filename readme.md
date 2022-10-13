@@ -40,4 +40,4 @@ server.port=8881
     
 ### 참고사이트
   - [stanford.edu](http://www-cs-students.stanford.edu/~tjw/jsbn/)
-  
+  - [SoA 정책](./helpme.md)
