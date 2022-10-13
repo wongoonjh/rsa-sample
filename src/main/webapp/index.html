@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>  -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script language="JavaScript" type="text/javascript" src="./js/rsa/rsa.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/rsa/jsbn.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/rsa/prng4.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/rsa/rng.js"></script>
+    
+    
+    <script language="JavaScript" type="text/javascript" src="./js/main.js"></script>
+
+</head>
+<body>
+<h1>RSA SAMPLE PAGE</h1>
+<hr/>
+    <div style="padding-top:3em;"></div>
+ 
+	   1. 키생성 <a href="javascript:getPubkey()">요청</a>
+	   
+    <div>
+        <textarea id="reskeyinfoM" rows=4 cols=70 disabled></textarea><br>
+        <input type="text" id="reskeyinfoE" disabled/>
+    </div>
+    <div style="padding-top:3em;"></div>
+
+
+
+    2. PlanText : <input type="text" id="PlanText" style="width:25rem" />
+    <div>
+    	<a href="javascript:do_encrypt()">암호화</a><br>
+    </div>
+	<div style="padding-top:3em;"></div>
+
+
+    3. Ciphertext (hex):
+    <div>
+    	<textarea id="ciphertext" rows=4 cols=70 disabled></textarea>
+	</div>
+    <div style="padding-top:3em;"></div>
+
+	4.복호화 정보
+    <a href="javascript:validate()">확인</a>
+    <div>
+    	<input type="text" id="resultPlanText" style="width:25rem" />
+	</div>
+    <div style="padding-top:3em;"></div>
+
+</div>
+
+
+</body>
+</html>
