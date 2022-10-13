@@ -7,10 +7,17 @@
 3. 복호화 요청
   client -> 서버요청 : /ss/test_v
   
-  
+## Build
+
+```
+make
+```
+
+
+
 ## Install
-/rsa-sample/src/main/resources/application.properties
-LISTEN port 변경후
+/rsa-sample/src/main/resources/application.properties  
+LISTEN port 변경
 ```
 server.port=8881
 ```
@@ -19,7 +26,8 @@ server.port=8881
 ## Run
 ```
 - Run as > String Boot App
-- http://a.com:8881
+- default : 
+  main.js http://a.com:8881
 ```
 
 
